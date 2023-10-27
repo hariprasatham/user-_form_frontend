@@ -1,0 +1,4 @@
+.ant-table-thead .ant-table-cell {
+    background-color: green !important;
+    color: white !important;
+}
