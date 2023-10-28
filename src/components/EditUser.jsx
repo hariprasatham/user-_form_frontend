@@ -12,7 +12,7 @@ const EditUser = (props) => {
 
     return (
         <div>
-            <Modal open={modalOpen} title="Edit User">
+            <Modal onCancel={handleCancel} open={modalOpen} title="Edit User" footer={null}>
                 <UserForm form={props.form} buttonText="Update" methodName={props.updateUser} onCancel={handleCancel} />
             </Modal>
         </div>
